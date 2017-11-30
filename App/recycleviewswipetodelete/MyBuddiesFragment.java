@@ -38,7 +38,7 @@ import com.truckdriver.view.MyBuddyView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MyBuddiesFragment extends BaseFragment implements HeaderFragment.OnRightIconClick, MyBuddyView, MyBuddyListAdapter.OnBuddyItemClickListener, CustomDialog.OnDeleteBuddyResponse {
+public class MyListFragment extends BaseFragment implements HeaderFragment.OnRightIconClick, MyBuddyView, MyBuddyListAdapter.OnBuddyItemClickListener, CustomDialog.OnDeleteBuddyResponse {
     private static final String TAG = "MyBuddiesFragment";
     private View mView;
     private MyBuddyPresentor myBuddyPresentor;
